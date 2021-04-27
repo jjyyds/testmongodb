@@ -1,0 +1,10 @@
+server:
+  port: 80
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test
+
+logging:
+  level:
+    org.springframework.data.mongodb: debug
